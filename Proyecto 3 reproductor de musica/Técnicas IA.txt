@@ -1,0 +1,16 @@
+Para desarrollar mi proyecto, usé la IA Lucía, una gema que tenia el conocimiento
+de una profesora de progamación.Mi idea no era que hiciera el trabajo por mi, si utilizarla
+como una mentora, entender logicas o errores, aclar dudas,etc.
+
+Las principales técnicas que use para trabajar con la gema fueron:
+
+1)No realizarme el codigo : Si yo le colocaba a la IA que me hiciera una parte del codigo me
+iba a contestar lo siguiente "No puedo hacerlo, lo tienes que realizar por tu cuenta, fueron
+las instrucciones que me diste".
+
+2)Colocar la diapositiva  de Espacio Educa : Le envie la diapositiva para que analisara y tomara 
+como instrucciones.
+
+3) No preguntar hasta que sea mi unica opción : Si las dudas no se aclaraban con videos o
+investigación, usaba a la gema para resolverlo.
+

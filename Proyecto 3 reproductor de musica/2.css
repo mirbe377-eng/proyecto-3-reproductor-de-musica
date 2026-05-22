@@ -1,0 +1,363 @@
+
+body{
+    background-image: url(img/fondo.png) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
+
+.Barra{
+    width: 101.2%;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: -8px;
+    background-color: rgb(93, 95, 95);
+    position: fixed;
+    z-index: 3;
+
+}
+
+.img-base{
+    width: 100%;
+    height: 80px;
+    opacity: 0.4;
+}
+
+.Logo{
+    width: 70px;
+    height: 70px;
+    top: -80px;
+    left: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Tipografia y color de todas las letras */
+.color{
+    font-family: "Shadows Into Light Two", cursive;
+    color: #c1c1c1;
+}
+
+.grupo-buscar {
+    position: relative;
+    display: inline-block;
+}
+
+.barra-busqueda{
+    width: 500px;
+    height: 40px;
+    top: -110px;
+    left: 180px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.icono-busqueda {
+    position: absolute;
+    left: 205px;           
+    top: -105px;             
+    width: 30px;          
+    z-index: 2;           
+}
+
+
+.biblioteca{
+    width: 500px;
+    height: 500px;
+    top: 85px;
+    left: 0px;
+    position: relative;
+    background-color: black;
+    border-radius: 5%;
+    overflow-y: auto ;
+    overflow-x: hidden;
+}
+
+/* Bordes de todas las imagenes */
+.img{
+    position: absolute;
+    border-radius: 20px;
+    border: 7px solid #b00202;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.text1{
+    font-size: 20px;
+    left: 200px;
+    position: absolute;
+    display: inline-block;
+}
+
+.text2{
+    left: 200px;
+    position: absolute;
+}
+
+/* imagenes */
+.heavydirtysoul{
+
+    top: 30px;
+}
+
+.stressed{
+    top: 180px;
+}
+
+.ride{
+    top: 340px;
+}
+
+.fairly{
+    top: 500px;
+}
+
+.tearinmy{
+    top: 660px;
+}
+
+.lane{
+    top: 820px;
+}
+
+.the{
+    top: 980px;
+}
+
+.doubt{
+    top: 1140px;
+}
+
+.polarize{
+    top: 1300px;
+}
+
+.wedon{
+    top: 1460px;
+}
+
+.messageman{
+    top: 1620px;
+}
+
+.hometown{
+    top: 1780px;
+}
+
+.nottoday{
+    top: 1945px;
+}
+
+.goner{
+    top: 2110px;
+}
+
+/* titulos */
+.heavy{
+    top: 35px;
+}
+
+.stress{
+    top:190px;
+}
+
+.ri{
+    top: 350px;
+}
+
+.local{
+    top: 510px;
+}
+
+.heart{
+    top: 670px;
+}
+
+.boy{
+    top: 830px;
+}
+
+.judge{
+    top: 990px;
+}
+
+.dou{
+    top: 1150px;
+}
+
+.pola{
+    top: 1310px;
+}
+
+.wedont{
+    top: 1470px;
+}
+
+.messa{
+    top: 1630px;
+}
+
+.home{
+    top: 1790px;
+}
+
+.not{
+    top: 1955px;
+}
+
+.Goner{
+    top: 2120px;
+}
+
+/* artista */
+.H{
+    top:70px;
+}
+
+.S{
+    top: 220px;
+}
+
+.R{
+    top: 380px;
+}
+
+.F{
+    top: 540px;
+}
+
+.T{
+    top: 700px;
+}
+
+.L{
+    top: 860px;
+}
+
+.TH{
+    top: 1020px;
+}
+
+.D{
+    top: 1180px;
+}
+
+.P{
+    top: 1340px;
+}
+
+.W{
+    top: 1500px;
+}
+
+.M{
+    top: 1660px;
+}
+
+.HO{
+    top: 1820px;
+}
+
+.N{
+    top: 1985px;
+}
+
+.G{
+    top: 2150px;
+}
+
+.contenedor{
+    height: 450px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #686868;
+    padding: 20px;
+    top: -410px;
+    left: 55%;
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0.37);
+    border: #454444;
+    position: relative;
+}
+
+
+.contenedor .contenedor-img{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+}
+
+.contenedor .contenedor-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px 5px rgba( 0, 0, 0);
+}.contenedor h2{
+    position: absolute;
+    top: 260px;
+    left: 70px;
+    color: #7b0202;
+    font-family: "Shadows Into Light Two", cursive;
+}
+
+.contenedor .artista{
+    position: absolute;
+    top: 430px;
+    left: 130px;
+    color: #7b0202;
+
+    font-family: "Shadows Into Light Two", cursive;
+}
+
+.contenedor .progresoBarra{
+    background: #434343;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 20px;
+    width: 90%;
+    height: 4px;
+    top: 300px;
+    left: 0px;
+    position: absolute;
+}
+
+.contenedor .progresoBarra .progreso{
+    background: #7b0202;
+    border-radius: 5px;
+    width: 0%;
+    height: 100%;
+    transition: width 0.1s linear;
+}
+
+.contenedor .progresoBarra .duracion{
+    position: relative;
+    top: -25px;
+    display: flex;
+    color: #7b0202;
+    justify-content: space-between;
+}
+
+.contenedor .controles{
+    position: relative;
+    top: 350px;
+    width: 200px;
+    left: 100px;
+}
+
+.contenedor .controles ion-icon {
+    font-size: 30px;
+    color: #7b0202;
+    margin-right: 30px;
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="UTF-8">
+     <title>Clancy Player</title>
+     <link rel="stylesheet" href="2.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+    <div class="Barra">
+         <img src="img/img-capa.png" class="img-base">
+         <img src="img/Logo.png" class="Logo">
+         <div class="grupo-buscar">
+             <img src="img/Lupa.png" class="icono-busqueda">
+             <input type="text" placeholder="Busca tu canción de Twenty One Pilots... " class="color barra-busqueda">
+         </div>
+     </div>
+
+     <div class="biblioteca">
+         <ul class="Lista-canciones">
+                <li class="cancion">
+                  <img src="imagenes/Heavydirtysoul.jfif" class="img heavydirtysoul">
+                  <h3 class="color text1 heavy">Heavydirtysoul</h3>
+                  <h5 class="color text2 H">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/StressedOut.jfif" class="img stressed">
+                  <h3 class="color text1 stress">Stressed Out</h3>
+                  <h5 class="color text2 S">Sencillo · Twenty One Pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/Ride.jfif" class="img ride">
+                  <h3 class="color text1 ri">Ride</h3>
+                  <h5 class="color text2 R">Sencillo · Twenty One Pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/FairlyLocal.jfif" class="img fairly">
+                  <h3 class="color text1 local">Fairly Local</h3>
+                  <h5 class="color text2 F">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/TearinMyHeart.jfif" class="img tearinmy">
+                  <h3 class="color text1 heart">Tear in My Heart</h3>
+                  <h5 class="color text2 T">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/LaneBoy.jfif" class="img lane">
+                  <h3 class="color text1 boy">Lane Boy</h3>
+                  <h5 class="color text2 L">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/TheJudge.jfif" class="img the">
+                  <h3 class="color text1 judge">The Judge</h3>
+                  <h5 class="color text2 TH">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/Doubt.jfif" class="img doubt">
+                  <h3 class="color text1 dou">Doubt</h3>
+                  <h5 class="color text2 D">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/Polarize.jfif" class="img polarize">
+                  <h3 class="color text1 pola">Polarize</h3>
+                  <h5 class="color text2 P">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/WeDontBelieveWhatsOnTv.jfif" class="img wedon">
+                  <h3 class="color text1 wedont">We Don't Believe What's On Tv</h3>
+                  <h5 class="color text2 W">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/MassageMan.jfif" class="img messageman">
+                  <h3 class="color text1 messa">Massage Man</h3>
+                  <h5 class="color text2 M">Sencillo · Twenty one pilots</h5>
+               </li>
+               <li class="cancion">
+                  <img src="imagenes/Hometown.jfif" class="img hometown">
+                  <h3 class="color text1 home">Hometown</h3>
+                  <h5 class="color text2 HO">Sencillo · Twenty one pilots</h5>
+               </li>
+                <li class="cancion">
+                  <img src="imagenes/NotToday.jfif" class="img nottoday">
+                  <h3 class="color text1 not">Not Today</h3>
+                  <h5 class="color text2 N">Sencillo · Twenty one pilots</h5>
+               </li>
+                <li class="cancion">
+                  <img src="imagenes/Goner.jfif" class="img goner">
+                  <h3 class="color text1 Goner">Goner</h3>
+                  <h5 class="color text2 G">Sencillo · Twenty one pilots</h5>
+               </li>
+          </ul>
+     </div>
+     <div class="contenedor">
+
+       <div class="contenedor-img">
+            <img src="imagenes/Heavydirtysoul.jfif">
+         </div>
+         <h2 id="titulo">Título de la canción</h2>
+         <h3 class="artista">Twenty One Pilots</h3>
+         <audio src="Musica/Heavydirtysoul.mp3" ></audio>
+               <div class="progresoBarra" id="progresoBarra">
+                  <div class="progreso" id="progreso"></div>
+                  <div class="duracion">
+                        <samp id="tiempoActual">0:00</samp>
+                        <samp id="tiempoDuracion">0:00</samp>
+                  </div>
+             </div> 
+               <div class="controles">
+                  <ion-icon name="play-skip-back" id="prev"></ion-icon>
+                  <ion-icon name="play" id="play"></ion-icon>
+                  <ion-icon name="play-skip-forward" id="next"></ion-icon>
+            </div>
+      </div>        
+     
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>       
+    
+      <script src="3.js"></script>
+   </body>
+</html>
