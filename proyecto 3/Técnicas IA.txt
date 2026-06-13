@@ -1,0 +1,61 @@
+Entrega 1
+
+Para desarrollar mi proyecto, usé la IA LuzIA, una gema a la que le di el rol de una profesora
+de programación. Mi idea no era que hiciera el trabajo por mí, sino utilizarla como una mentor
+para entender la lógica, corregir errores y aclarar dudas.
+
+Las principales técnicas que usé para trabajar con la gema fueron:
+
+No hacerme el código: Si yo le pedía a la IA que me hiciera una parte del código, ella me 
+contestaba: "No puedo hacerlo, lo tienes que realizar por tu cuenta, fueron las instrucciones 
+que me diste".
+
+Colocar la diapositiva de Espacio Educa: Le envié la diapositiva para que la analizara y la tomara
+como instrucciones de base.
+
+No preguntar hasta que fuera mi única opción: Si las dudas no se aclaraban con videos o 
+investigación propia, recién ahí usaba a la gema para resolverlas.
+
+La parte del proyecto que desarrollé usando prompts (instrucciones) fue el JavaScript, ya que
+ahí era donde tenía más problemas. El JS en el que me ayudó la IA fue, sobre todo, a ver esos 
+errores que yo no notaba a simple vista y a aprender a leer la consola, lo que me facilitó bastante
+el desarrollo del código.
+
+Claro que no todo fue sencillo. Había momentos en los que la IA tenía un tipo de alucinación y
+juntaba respuestas anteriores con las actuales, confundiéndome muchísimo más. También, algunas 
+veces no sabía leer qué estaba ocurriendo en la consola ni cuáles errores tenía que resolver y cómo.
+
+Uno de los problemas más grandes fue con esta línea:
+
+"const imagen = document.querySelector('.contenedor-img img');"
+
+En esta parte de mi código, no sabía cómo hacer para que la imagen de cada canción cambiara
+y se viera en el contenedor principal. Como las imágenes estaban vinculadas directamente con un
+src y no podía colocarles un id a cada una, la IA se trabó; no me lo pudo explicar ni resolver.
+
+Al final, me tocó arreglármelas por mis propios medios. Me puse a buscar videotutoriales de
+reproductores de música para ver cómo hacían otros programadores para cambiar la ruta del conts
+de la imagen de forma dinámica según la canción que sonaba. Gracias a eso, pude entender la lógica
+y resolver el problema por mi cuenta.
+
+En conclusión, trabajar con la IA fue una herramienta bastante útil, pero este inconveniente me 
+demostró que la tecnología tiene sus límites. Aprender a programar no se trata de que una 
+herramienta te dé todas las respuestas, sino de saber buscar soluciones, entender el código y no
+dejarse llevar por las emociones cuando las cosas salen mal.
+
+Entrega 2
+
+En esta entrega decidí utilizar la misma gema, ya que ahí ya tenía guardadas las instrucciones previas 
+que necesitaba. Al igual que en la entrega pasada, me apoyé en la IA para trabajar con Js,
+específicamente en la parte del inicio de sesión y en el buscador desplegable, ya que tenia muchas 
+dificultades con eso.
+
+Sin embargo, hubo un momento en el que las sugerencias de la IA no me funcionaron. Esto me pasó en el
+cuadro de inicio de sesión, justo con el ícono para cerrar la ventana; por más que aplicaba lo que me 
+recomendaba, no lograba solucionarlo. Al final, tuve que descartar su ayuda en esa parte y resolverlo 
+por mis propios medios, revisando mis ejercicios anteriores para entender el error y poder arreglarlo.
+
+En conclusión, aunque la IA es una herramienta excelente para avanzar y resolver dudas, no siempre te 
+da la respuesta exacta. Esta experiencia me demostró que cuando la inteligencia artificial se equivoca 
+o no da con la solución, es fundamental tener la capacidad de volver a nuestro propio código y repasar 
+lo que ya hemos aprendido antes para solucionar los problemas por nuestra cuenta.
