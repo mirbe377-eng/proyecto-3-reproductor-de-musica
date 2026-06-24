@@ -13,60 +13,72 @@ const cancion =[
     {
         name:'Heavydirtysoul',
         displayName:'Heavydirtysoul',
-       
+        genre:'HipHop/Rap'
     },
     {
         name:'StressedOut',
-        displayName:'Stressed Out',
+        displayName:'StressedOut',
+        genre:'HipHop/Rap'
     },
     {
         name:'Ride',
         displayName:'Ride',
+        genre:'ReggaeRock'
     },
     {
         name:'FairlyLocal',
-        displayName:'Fairly Local',
+        displayName:'FairlyLocal',
+        genre:'Electropop'
     },
-   {
+    {
         name:'TearinMyHeart',
-        displayName:'Tear in My Heart',
+        displayName:'TearinMyHeart',
+        genre:'IndiePop'
     },
     {
         name:'LaneBoy',
-        displayName:'Lane Boy',
+        displayName:'LaneBoy',
+        genre:'ReggaeRock'
     },
-   {
+    {
         name:'TheJudge',
-        displayName:'The Judge',
+        displayName:'TheJudge',
+        genre:'IndiePop'
     },
     {
         name:'Doubt',
         displayName:'Doubt',
+        genre:'Electropop'
     },
-   {
+    {
         name:'Polarize',
         displayName:'Polarize',
+        genre:'Electropop'
     },
     {
         name:'WeDontBelieveWhatsOnTv',
-        displayName:"We Don't Believe What's On Tv",
+        displayName:'WeDontBelieveWhatsOnTv',
+        genre:'IndiePop'
     },
     {
         name:'MassageMan',
-        displayName:'Massage Man',
+        displayName:'MassageMan',
+        genre:'ReggaeRock'
     },
     {
         name:'Hometown',
         displayName:'Hometown',
-       
+        genre: 'Electropop'
     },
     {
         name:'NotToday',
-        displayName:'Not Today',
+        displayName:'NotToday',
+        genre:'IndiePop'
     },
     {
         name:'Goner',
         displayName:'Goner',
+        genre:'AlternativeRock'
     },
 ];
 
@@ -252,4 +264,35 @@ document.addEventListener('click', (e) => {
     if (!buscador.contains(e.target) && !listaResultados.contains(e.target)) {
         listaResultados.classList.add('oculto');
     }
+});
+
+
+const botonesGenero = document.querySelectorAll(".boton-genero");
+const listaCanciones = document.querySelectorAll(".cancion");
+
+
+botonesGenero.forEach(function(boton){
+
+    boton.addEventListener("click", function(){
+
+        console.log("CLICK:", boton.textContent);
+
+        let genero = boton.getAttribute("data-genero");
+
+        listaCanciones.forEach(function(item,index){
+
+            if(genero === "Todas"){
+                item.style.display = "flex";
+            }
+            else if(cancion[index].genre === genero){
+                item.style.display = "flex";
+            }
+            else{
+                item.style.display = "none";
+            }
+
+        });
+
+    });
+
 });
